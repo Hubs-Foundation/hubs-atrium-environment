@@ -1,0 +1,393 @@
+{
+  "asset": {
+    "generator": "FBX2glTF",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "buffers": [
+    {
+      "uri": "CeilingFan_data.bin",
+      "byteLength": 15308
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 388,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1552,
+      "byteOffset": 388
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1136,
+      "byteOffset": 1940,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2280,
+      "byteOffset": 3076,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2280,
+      "byteOffset": 5356,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1520,
+      "byteOffset": 7636,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 648,
+      "byteOffset": 9156,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2064,
+      "byteOffset": 9804,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2064,
+      "byteOffset": 11868,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1376,
+      "byteOffset": 13932,
+      "target": 34962
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Root Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "componentType": 5126,
+      "type": "SCALAR",
+      "count": 97,
+      "bufferView": 0,
+      "byteOffset": 0,
+      "min": [
+        0
+      ],
+      "max": [
+        4
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC4",
+      "count": 97,
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5123,
+      "type": "SCALAR",
+      "count": 567,
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 190,
+      "bufferView": 3,
+      "byteOffset": 0,
+      "min": [
+        -0.231354176998138,
+        -0.0940112844109535,
+        -0.242461606860161
+      ],
+      "max": [
+        0.246201947331429,
+        0.376426756381989,
+        0.242461577057838
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 190,
+      "bufferView": 4,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 190,
+      "bufferView": 5,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5123,
+      "type": "SCALAR",
+      "count": 324,
+      "bufferView": 6,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 172,
+      "bufferView": 7,
+      "byteOffset": 0,
+      "min": [
+        -1.3883193731308,
+        0.044842466711998,
+        -1.24319911003113
+      ],
+      "max": [
+        0.804253458976746,
+        0.0682658478617668,
+        1.24319922924042
+      ]
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC3",
+      "count": 172,
+      "bufferView": 8,
+      "byteOffset": 0
+    },
+    {
+      "componentType": 5126,
+      "type": "VEC2",
+      "count": 172,
+      "bufferView": 9,
+      "byteOffset": 0
+    }
+  ],
+  "images": [
+    {
+      "name": "CeilingFan.fbm/ceilingfan1_Emissive.jpg",
+      "uri": "CeilingFan_img0.jpg"
+    },
+    {
+      "name": "ao_met_rough_ceilingfan1_Metallic_ceilingfan1_Roughness",
+      "uri": "CeilingFan_img1.jpg"
+    },
+    {
+      "name": "CeilingFan.fbm/ceilingfan1_BaseColor.jpg",
+      "uri": "CeilingFan_img2.jpg"
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "textures": [
+    {
+      "name": "file114",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "ao_met_rough_ceilingfan1_Metallic_ceilingfan1_Roughness",
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "name": "file110",
+      "sampler": 0,
+      "source": 2
+    }
+  ],
+  "materials": [
+    {
+      "name": "ceilingfan1_mat",
+      "alphaMode": "OPAQUE",
+      "extras": {
+        "fromFBX": {
+          "shadingModel": "Metallic/Roughness",
+          "isTruePBR": true
+        }
+      },
+      "occlusionTexture": {
+        "index": 1,
+        "texCoord": 0
+      },
+      "emissiveTexture": {
+        "index": 0,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1,
+        "metallicFactor": 1
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "fanBase1",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "attributes": {
+            "NORMAL": 4,
+            "POSITION": 3,
+            "TEXCOORD_0": 5
+          },
+          "indices": 2
+        }
+      ]
+    },
+    {
+      "name": "fanBlades1",
+      "primitives": [
+        {
+          "material": 0,
+          "mode": 4,
+          "attributes": {
+            "NORMAL": 8,
+            "POSITION": 7,
+            "TEXCOORD_0": 9
+          },
+          "indices": 6
+        }
+      ]
+    }
+  ],
+  "animations": [
+    {
+      "name": "Fan01",
+      "channels": [
+        {
+          "sampler": 0,
+          "target": {
+            "node": 3,
+            "path": "rotation"
+          }
+        }
+      ],
+      "samplers": [
+        {
+          "input": 0,
+          "interpolation": "LINEAR",
+          "output": 1
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "RootNode",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "CeilingFan",
+      "translation": [
+        0,
+        -2.88233089447021,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "fanBase1",
+      "translation": [
+        0,
+        2.50590419769287,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "children": [
+        3
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "fanBlades1",
+      "translation": [
+        0,
+        3.12638802040378e-15,
+        0
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "mesh": 1
+    }
+  ]
+}
